@@ -1,5 +1,5 @@
 #====================================================================================================
-# Cloud Exadata VM Cliuster variables
+# Cloud Exadata VM Cluster variables
 #====================================================================================================
 variable "compute_count" {
   type        = number
@@ -19,7 +19,7 @@ variable "location" {
 
 variable "name" {
   type        = string
-  description = "The name of the the Oracle Exatada Infrastructure resource."
+  description = "The name of the the Oracle Exadata Infrastructure resource."
 }
 
 variable "resource_group_id" {
@@ -85,7 +85,6 @@ variable "storage_server_type" {
   type        = string
   default     = null
 }
-
 
 #====================================================================================================
 # AVM Interface variables

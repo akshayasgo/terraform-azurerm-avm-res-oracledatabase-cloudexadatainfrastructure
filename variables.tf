@@ -74,6 +74,19 @@ variable "maintenance_window_preference" {
   description = "The maintenance window preference."
 }
 
+variable "database_server_type" {
+  description = "The type of the database servers (required for Exadata infrastructure)."
+  type        = string
+  default     = null
+}
+
+variable "storage_server_type" {
+  description = "The type of the storage servers (required for Exadata infrastructure)."
+  type        = string
+  default     = null
+}
+
+
 #====================================================================================================
 # AVM Interface variables
 #====================================================================================================

@@ -1,6 +1,6 @@
 
 resource "azapi_resource" "odaa_infra" {
-  type = "Oracle.Database/cloudExadataInfrastructures@2023-09-01"
+  type = "Oracle.Database/cloudExadataInfrastructures@2025-03-01"
   body = {
     "location" : var.location,
     "zones" : [

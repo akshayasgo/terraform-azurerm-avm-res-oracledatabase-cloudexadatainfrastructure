@@ -2,7 +2,7 @@
 resource "azapi_resource" "odaa_infra" {
   name      = var.name
   parent_id = var.resource_group_id
-  type      = "Oracle.Database/cloudExadataInfrastructures@2023-09-01"
+  type      = "Oracle.Database/cloudExadataInfrastructures@2025-03-01"
   body = {
     "location" : var.location,
     "zones" : [

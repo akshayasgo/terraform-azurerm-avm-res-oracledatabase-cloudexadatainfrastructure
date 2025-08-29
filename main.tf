@@ -20,6 +20,8 @@ resource "azapi_resource" "odaa_infra" {
       },
       "shape" : var.shape,
       "storageCount" : var.storage_count,
+      "databaseServerType" : var.database_server_type,
+      "storageServerType"  : var.storage_server_type,
     }
   }
   create_headers            = var.enable_telemetry ? { "User-Agent" : local.avm_azapi_header } : null
